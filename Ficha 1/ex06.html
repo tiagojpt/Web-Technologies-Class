@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://www.webucator.com/materials/htm101/" method = "Post">
+        <h1> Registration Form </h1>
+        User name: <input type="text" name="username" id="username">
+        <br>
+        Password: <input type="password" name="pw" id="pw">
+        <br>
+        <input type="hidden" name="emailMe" id="emailMe" value="tteixeira284@gmail.com">
+        Gender: <input type="radio" name="gender" value="m" id="genderm" > Male
+        <input type="radio" name="gender" value="f" id="genderf "> Female<br>
+        Click to accept our terms: <input type="checkbox" name="terms" id="terms"> 
+        <br>
+        Where did you hear about us? <select name="referral" id="referral">
+            <option value="0" >–Please choose–</option>
+            <option value="wom" >Word of Mouth</option>
+            <optgroup label="Search Engine">
+                <option value="Google" >Google</option> 
+                <option value="Yahoo" >Yahoo!</option>
+                <option value="MSN" >MSN</option>
+            </optgroup>
+            </select>
+        <br>
+        Comments: <br> <textarea name="comments" id="comments" rows="5" cols="50"></textarea>
+        <br>
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+        <br>
+
+        </form>
+
+
+</body>
+</html>
